@@ -1,0 +1,13 @@
+[package]
+name = "pygamer-panic-led"
+version = "0.1.0"
+authors = ["Jacob Rosenthal <jacobrosenthal@gmail.com>"]
+edition = "2018"
+description = "Set pygamer d13 led on panic"
+keywords = ["panic-handler", "panic", "pygamer"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/jacobrosenthal/pygamer-panic-led"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+pygamer = "0.5.0"
